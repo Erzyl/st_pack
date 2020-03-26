@@ -1,0 +1,9 @@
+---
+name: greet.concurrency
+pack: best_pack
+description: Limits the concurrent executions of the greet action.
+enabled: true
+resource_ref: best_pack.greet
+policy_type: action.concurrency
+parameters:
+    threshold: 10
