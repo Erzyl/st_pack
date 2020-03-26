@@ -4,7 +4,7 @@ pack: best_pack
 description: Sample rule firing on best_pack.event1.
 enabled: true
 trigger:
-    type: hello_st2.event1
+    type: best_pack.event1
 action:
     ref: best_pack.greet
     parameters:
