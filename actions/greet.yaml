@@ -8,6 +8,6 @@ entry_point: greet.sh
 parameters:
     greeting:
         type: string
-        description: [Input] system!
+        description: Input system!
         required: true
         position: 1
