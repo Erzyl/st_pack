@@ -4,8 +4,8 @@ pack: best_pack
 description: Sample rule firing on best_pack.event1.
 enabled: true
 trigger:
-    type: best_pack.event1
+    type: robot_pack.event1
 action:
-    ref: best_pack.greet
+    ref: robot_pack.the_test
     parameters:
         greeting: Yo

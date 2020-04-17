@@ -2,6 +2,6 @@
 name: greet
 pack: robot_pack
 description: "Greet StackStorm"
-action_ref: "best_pack.greet"
+action_ref: "robot_pack.the_test"
 formats:
   - "greet {{greeting}}"

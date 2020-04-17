@@ -1,6 +1,6 @@
 ---
 name: greet
-pack: best_pack
+pack: robot_pack
 runner_type: "python-script"
 description: Run robot
 enabled: true

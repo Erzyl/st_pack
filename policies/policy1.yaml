@@ -1,9 +1,9 @@
 ---
 name: greet.concurrency
-pack: best_pack
+pack: robot_pack
 description: Limits the concurrent executions of the greet action.
 enabled: true
-resource_ref: best_pack.greet
+resource_ref: robot_pack.the_test
 policy_type: action.concurrency
 parameters:
     threshold: 10
