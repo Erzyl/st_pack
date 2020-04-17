@@ -2,10 +2,10 @@ import sys
 
 from st2common.runners.base_action import Action
 
-class the_test(Action):
-    def run(self, message):
-        print(message)
+class RoboStarter(Action):
+    def run(self, the_test):
+        print(the_test)
 
-        if message == 'working':
-            return (True, message)
-        return (False, message)
+        if the_test == 'working':
+            return (True, the_test)
+        return (False, the_test)
