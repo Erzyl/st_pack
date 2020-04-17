@@ -1,12 +1,12 @@
 ---
 name: greet
 pack: best_pack
-runner_type: "local-shell-script"
-description: Notify Existence
+runner_type: "python-script"
+description: Run robot
 enabled: true
-entry_point: greet.sh
+entry_point: RoboStarter.py
 parameters:
-    greeting:
+    the_test:
         type: string
         description: Input system!
         required: true

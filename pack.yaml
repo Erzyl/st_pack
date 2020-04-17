@@ -1,11 +1,11 @@
 ---
 # Pack reference. It can only contain letters, digits and underscores.
-ref: best_pack
+ref: robot_pack
 # User-friendly pack name. If this attribute contains spaces or any other special characters, then
 # the "ref" attribute must also be specified (see above).
-name: Best ST Pack
+name: Robot starting pack
 # User-friendly pack description.
-description: The best pack. Does everything.
+description: Starts robot
 # Keywords which are used when searching for packs.
 keywords:
     - best
