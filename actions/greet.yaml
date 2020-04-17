@@ -1,8 +1,8 @@
 ---
-name: greet
+name: run_robot
 pack: robot_pack
 runner_type: "python-script"
-description: Run robot
+description: Runs the robot
 enabled: true
 entry_point: RoboStarter.py
 parameters:
